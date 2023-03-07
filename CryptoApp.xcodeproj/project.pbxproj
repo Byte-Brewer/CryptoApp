@@ -19,6 +19,7 @@
 		78E384CC29B7735A004C9E37 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E384CB29B7735A004C9E37 /* CoinRowView.swift */; };
 		78E384CE29B774A5004C9E37 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E384CD29B774A5004C9E37 /* PreviewProvider.swift */; };
 		78E384D029B777E2004C9E37 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E384CF29B777E2004C9E37 /* Double.swift */; };
+		78E384D229B78879004C9E37 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E384D129B78879004C9E37 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		78E384CB29B7735A004C9E37 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		78E384CD29B774A5004C9E37 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		78E384CF29B777E2004C9E37 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		78E384D129B78879004C9E37 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		78E384BC29B72A2F004C9E37 /* VIewModels */ = {
 			isa = PBXGroup;
 			children = (
+				78E384D129B78879004C9E37 /* HomeViewModel.swift */,
 			);
 			path = VIewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78E384CC29B7735A004C9E37 /* CoinRowView.swift in Sources */,
+				78E384D229B78879004C9E37 /* HomeViewModel.swift in Sources */,
 				78E384AA29B7258F004C9E37 /* ContentView.swift in Sources */,
 				78E384BF29B72A62004C9E37 /* HomeView.swift in Sources */,
 				78E384A829B7258F004C9E37 /* CryptoAppApp.swift in Sources */,

@@ -25,6 +25,7 @@
 		78E384DB29B7AA7D004C9E37 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E384DA29B7AA7D004C9E37 /* CoinImageView.swift */; };
 		78E384DD29B7ACD1004C9E37 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E384DC29B7ACD1004C9E37 /* CoinImageService.swift */; };
 		78E384DF29B7AEFB004C9E37 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E384DE29B7AEFB004C9E37 /* CoinImageViewModel.swift */; };
+		78E384E129B7F427004C9E37 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E384E029B7F427004C9E37 /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		78E384DA29B7AA7D004C9E37 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		78E384DC29B7ACD1004C9E37 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		78E384DE29B7AEFB004C9E37 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
+		78E384E029B7F427004C9E37 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				78E384D729B7A23E004C9E37 /* NetworkManager.swift */,
+				78E384E029B7F427004C9E37 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				78E384CC29B7735A004C9E37 /* CoinRowView.swift in Sources */,
 				78E384D229B78879004C9E37 /* HomeViewModel.swift in Sources */,
 				78E384D829B7A23E004C9E37 /* NetworkManager.swift in Sources */,
+				78E384E129B7F427004C9E37 /* LocalFileManager.swift in Sources */,
 				78E384DD29B7ACD1004C9E37 /* CoinImageService.swift in Sources */,
 				78E384AA29B7258F004C9E37 /* ContentView.swift in Sources */,
 				78E384DB29B7AA7D004C9E37 /* CoinImageView.swift in Sources */,

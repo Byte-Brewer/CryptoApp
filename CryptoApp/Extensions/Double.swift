@@ -46,8 +46,8 @@ extension Double {
         formatter.usesGroupingSeparator = true
         formatter.numberStyle = .currency
         //formatter.locale = .current // <- default value
-        //formatter.currencyCode = "usd" // <- change currency
-        //formatter.currencySymbol = "$" // <- change currency symbol
+        formatter.currencyCode = "usd" // <- change currency
+        formatter.currencySymbol = "$" // <- change currency symbol
         formatter.minimumFractionDigits = 2
         formatter.maximumFractionDigits = 6
         return formatter
@@ -120,5 +120,38 @@ extension Double {
         }
     }
 
+    /// convert int to short forms
+    ///```
+    /// 10645 to 11k
+    ///```
+    func formattedWithAbbreviations2() -> String {
+        formatted(.number.notation(.compactName))
+    }
     
+    /// convert int to short forms with params 3
+    ///```
+    /// 10645 to 10,6k
+    ///```
+    func formattedWithAbbreviations3() -> String {
+        formatted(.number.precision(.significantDigits(3)).notation(.compactName))
+    }
+
+}
+
+extension Int {
+    /// convert int to short forms
+    ///```
+    /// 10645 to 11k
+    ///```
+    func formattedWithAbbreviations() -> String {
+        formatted(.number.notation(.compactName))
+    }
+    
+    /// convert int to short forms with params 3
+    ///```
+    /// 10645 to 10,6k
+    ///```
+    func formattedWithAbbreviations2() -> String {
+        formatted(.number.precision(.significantDigits(3)).notation(.compactName))
+    }
 }

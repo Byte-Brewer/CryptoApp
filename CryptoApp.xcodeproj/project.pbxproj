@@ -16,6 +16,8 @@
 		7845A1B829BA8A9A00D36632 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845A1B729BA8A9A00D36632 /* String.swift */; };
 		7845A1BA29BA8B0F00D36632 /* CoinDetailDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845A1B929BA8B0F00D36632 /* CoinDetailDataService.swift */; };
 		7845A1BC29BA8CAD00D36632 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845A1BB29BA8CAD00D36632 /* DetailViewModel.swift */; };
+		7845A1BE29C0ECC400D36632 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845A1BD29C0ECC400D36632 /* ChartView.swift */; };
+		7845A1C029C12AA600D36632 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845A1BF29C12AA600D36632 /* Date.swift */; };
 		78E384A829B7258F004C9E37 /* CryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E384A729B7258F004C9E37 /* CryptoAppApp.swift */; };
 		78E384AA29B7258F004C9E37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E384A929B7258F004C9E37 /* ContentView.swift */; };
 		78E384AF29B72591004C9E37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E384AE29B72591004C9E37 /* Preview Assets.xcassets */; };
@@ -56,6 +58,8 @@
 		7845A1B729BA8A9A00D36632 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		7845A1B929BA8B0F00D36632 /* CoinDetailDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailDataService.swift; sourceTree = "<group>"; };
 		7845A1BB29BA8CAD00D36632 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		7845A1BD29C0ECC400D36632 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		7845A1BF29C12AA600D36632 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		78E384A429B7258F004C9E37 /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E384A729B7258F004C9E37 /* CryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppApp.swift; sourceTree = "<group>"; };
 		78E384A929B7258F004C9E37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				7845A1B329BA85CD00D36632 /* DetailView.swift */,
+				7845A1BD29C0ECC400D36632 /* ChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 				78E384CF29B777E2004C9E37 /* Double.swift */,
 				78E384E429B88A0E004C9E37 /* UIAplication.swift */,
 				7845A1B729BA8A9A00D36632 /* String.swift */,
+				7845A1BF29C12AA600D36632 /* Date.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -371,6 +377,7 @@
 				78E384C329B72D4E004C9E37 /* CircleButtonView.swift in Sources */,
 				7845A1A829B93AAC00D36632 /* CoinLogoView.swift in Sources */,
 				78E384E529B88A0E004C9E37 /* UIAplication.swift in Sources */,
+				7845A1BE29C0ECC400D36632 /* ChartView.swift in Sources */,
 				7845A1BC29BA8CAD00D36632 /* DetailViewModel.swift in Sources */,
 				78E384EF29B8D612004C9E37 /* MarketDataService.swift in Sources */,
 				78E384B929B72859004C9E37 /* Color.swift in Sources */,
@@ -378,6 +385,7 @@
 				78E384C529B73681004C9E37 /* CircleButtonAnimationView.swift in Sources */,
 				78E384F329B8E53F004C9E37 /* PortfolioView.swift in Sources */,
 				78E384CE29B774A5004C9E37 /* PreviewProvider.swift in Sources */,
+				7845A1C029C12AA600D36632 /* Date.swift in Sources */,
 				78E384D029B777E2004C9E37 /* Double.swift in Sources */,
 				7845A1B629BA8A4200D36632 /* CoinDetailModel.swift in Sources */,
 				7845A1BA29BA8B0F00D36632 /* CoinDetailDataService.swift in Sources */,

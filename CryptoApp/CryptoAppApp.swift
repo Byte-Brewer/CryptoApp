@@ -16,16 +16,18 @@ struct CryptoAppApp: App {
     init() {
         UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor : UIColor(.theme.accent)]
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor : UIColor(.theme.accent)]
+        UITableView.appearance().backgroundColor = .clear
     }
     
     var body: some Scene {
         WindowGroup {
             ZStack {
-                NavigationView {
+                NavigationStack {
                     HomeView()
                         .toolbar(.hidden)
                 }
                 .environmentObject(vm)
+                .tint(.theme.accent)
                 
                 ZStack {
                     if showLaunchScreen {

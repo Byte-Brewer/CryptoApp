@@ -13,19 +13,30 @@ struct SettingsView: View {
     private let youtubetURL = URL(string: "https://www.youtube.com/c/swiftfulthinking")!
     private let coffeeURL = URL(string: "https://www.buymeacoffee.com/nicksarno")!
     private let coingeckoURL = URL(string: "https://www.coingecko.com")!
-    private let personalURL = URL(string: "https://github.com/Pivowar2009")!
+    private let personalURL = URL(string: "https://github.com/Byte-Brewer")!
     
     var body: some View {
         NavigationView {
-            List {
-                swiftfulThinkingSection
-                coinGeckoSection
-                developerSection
-                applicationSection
+            ZStack {
+                // background
+                Color.theme.background.ignoresSafeArea()
+                
+                // content
+                List {
+                    swiftfulThinkingSection
+                        .listRowBackground(Color.theme.background.opacity(0.5))
+                    coinGeckoSection
+                        .listRowBackground(Color.theme.background.opacity(0.5))
+                    developerSection
+                        .listRowBackground(Color.theme.background.opacity(0.5))
+                    applicationSection
+                        .listRowBackground(Color.theme.background.opacity(0.5))
+                }
             }
             .font(.headline)
             .tint(.blue)
             .listStyle(GroupedListStyle())
+            .background(Color.theme.background.ignoresSafeArea())
             .navigationTitle("Settings")
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
@@ -41,7 +52,6 @@ struct SettingsView_Previews: PreviewProvider {
         SettingsView()
     }
 }
-
 
 extension SettingsView {
     
@@ -71,7 +81,7 @@ extension SettingsView {
                     .scaledToFit()
                     .frame(height: 100)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
-                Text("This appp was made by follofing a @SwiftfulThinking course on youTube. it uses MVVM Architecture, Combine, and CoreData!")
+                Text("The cryptocurrency data that is used in this app comes from a free API from Coingecko! Prices may be slightly delayed")
                     .font(.callout)
                     .fontWeight(.medium)
                     .foregroundColor(.theme.accent)
